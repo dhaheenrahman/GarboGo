@@ -8,3 +8,6 @@ This project provides the following functionalities to users:-
 
 Technologies used for the project:-
   -Android Studio(Kotlin), XML(Layout), Firebase Real-time Database, node.js(Server), Arduino IDE(control GPS Module and IR Sensors), ESP8266 to fetch data from IoT devices and send it to server.
+
+How to Run:-
+  Simply navigate to the 'apk' directory and download & install the apk.
