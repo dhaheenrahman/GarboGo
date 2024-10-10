@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Garbogo</string>
+    <string name="back_button_description">b</string>
+    <string name="description_hint">location\n</string>
+    <string name="location_hint">location\n</string>
+    <string name="upload_image">upload_image\n</string>
+    <string name="submit">submit\n</string>
+</resources>

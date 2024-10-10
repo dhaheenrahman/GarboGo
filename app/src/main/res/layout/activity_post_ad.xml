@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostAd">
+
+    <!-- TextView for "Post Your Ad" -->
+
+    <!-- ImageView for uploading image -->
+    <TextView
+        android:id="@+id/postYourAdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Post Your Ad"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- LinearLayout to display uploaded photos -->
+
+    <!-- EditText for category -->
+
+    <!-- EditText for brand -->
+
+    <!-- EditText for condition -->
+
+    <ImageView
+        android:id="@+id/uploadImageIcon"
+        android:layout_width="64dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="331dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="601dp"
+        android:src="@drawable/image__1_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- EditText for location -->
+
+    <!-- Button for posting ad -->
+
+
+    <LinearLayout
+        android:id="@+id/photosLinearLayout"
+        android:layout_width="416dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="88dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/postYourAdTextView" />
+
+    <AutoCompleteTextView
+        android:id="@+id/categoryEditText"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:background="@drawable/border_btn"
+        android:drawableRight="@drawable/ic_dropdown"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Category"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397" />
+
+    <AutoCompleteTextView
+        android:id="@+id/conditionEditText"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_btn"
+        android:drawableRight="@drawable/ic_dropdown"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Condition"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brandEditText" />
+
+    <EditText
+        android:id="@+id/brandEditText"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_btn"
+        android:hint="Brand"
+        android:paddingStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoryEditText" />
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_btn"
+        android:hint="Location"
+        android:paddingStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/conditionEditText" />
+
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_btn"
+        android:hint="Price"
+        android:paddingStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationEditText" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="191dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/grey"
+        android:text="Post"
+        android:textSize="18sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Illegal">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@color/drkgrey"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/back_button_description"
+            android:src="@drawable/baseline_arrow_back_ios_24" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:text="GarboGo"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="406dp"
+        android:layout_height="107dp"
+        android:background="@color/light_white"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:text="You must take at least one photo"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="of the illegal dump"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="505dp"
+        android:background="@null"
+        android:contentDescription="@string/hills"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/image__1_" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="358dp"
+        android:layout_height="419dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/border_btn"
+        android:contentDescription="@string/hills"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="66dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="293dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="66dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="482dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="261dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="293dp"
+        android:gravity="center"
+        android:text="Fits in a truck"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="55dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="293dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image__4_" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="55dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="482dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/solid" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="55dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="541dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="141dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/industry" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="55dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="601dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hazardous" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="261dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="352dp"
+        android:gravity="center"
+        android:text="       Fits in a wheelbarrow"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="55dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="352dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image__3_" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="66dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="352dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="261dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="410dp"
+        android:gravity="center"
+        android:text="Fits in a bag"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="261dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="482dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="200dp"
+        android:gravity="center"
+        android:text="Solid Waste"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="261dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="541dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="141dp"
+        android:gravity="center"
+        android:text="Industrial Waste"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="261dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="601dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="81dp"
+        android:gravity="center"
+        android:text="    Hazardous Waste"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="66dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="541dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="141dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="66dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="601dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="266dp"
+        android:layout_marginBottom="460dp"
+        android:text="Size of Trash"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="446dp"
+        android:layout_marginEnd="255dp"
+        android:layout_marginBottom="258dp"
+        android:text="Type of Trash"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="55dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="410dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image__2_" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="66dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="410dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="191dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="659dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/grey"
+        android:text="Submit"
+        android:textSize="18sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

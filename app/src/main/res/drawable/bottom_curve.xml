@@ -1,0 +1,8 @@
+<!-- bottom_curve.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/drkgrey" /> <!-- Set the background color to drkgrey -->
+    <corners android:topLeftRadius="0dp"
+        android:topRightRadius="0dp"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp" /> <!-- Set curved bottom edges -->
+</shape>

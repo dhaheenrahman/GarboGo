@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "357099178750",
+    "project_id": "garbogo-542cc",
+    "storage_bucket": "garbogo-542cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357099178750:android:53862c16dda91e425f33af",
+        "android_client_info": {
+          "package_name": "com.example.garbogo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVNxYf9QUj_Z2jIQX4Zc33cEdomJ5nMNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

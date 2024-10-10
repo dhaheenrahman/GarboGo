@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textWard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="#E0E0E0"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/buttonMarkPicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark as Picked"
+        android:layout_gravity="end"
+        android:padding="8dp"/>
+
+</LinearLayout>
